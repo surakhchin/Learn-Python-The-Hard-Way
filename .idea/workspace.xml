@@ -23,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="part1.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/PORFTOLIO/Course-1-Week-1-Assessment/part1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1258">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="part2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/PORFTOLIO/Course-1-Week-1-Assessment/part2.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,8 +76,8 @@
       <file leaf-file-name="FirstClassEver.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FirstClassEver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1955">
-              <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1955">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -113,11 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassCarObjectEx2.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ClassCarObjectEx2.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClassCarObjectEx2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8167116" vertical-offset="496" max-vertical-offset="901">
-              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="1751">
+              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassCarObjectEx3.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClassCarObjectEx3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7250674" vertical-offset="1516" max-vertical-offset="1887">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -162,6 +162,7 @@
         <option value="$PROJECT_DIR$/CarClassEx.py" />
         <option value="$PROJECT_DIR$/ClassCarObjectEx1.py" />
         <option value="$PROJECT_DIR$/ClassCarObjectEx2.py" />
+        <option value="$PROJECT_DIR$/ClassCarObjectEx3.py" />
       </list>
     </option>
   </component>
@@ -456,13 +457,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex29.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="595">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex31.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="850">
@@ -792,14 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FirstClassEver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="363" max-vertical-offset="1955">
-          <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CustomerClassEx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="850">
@@ -816,10 +802,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FirstClassEver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1955">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ClassCarObjectEx2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8167116" vertical-offset="496" max-vertical-offset="901">
-          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="1751">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassCarObjectEx3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7250674" vertical-offset="1516" max-vertical-offset="1887">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>

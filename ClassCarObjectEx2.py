@@ -42,7 +42,57 @@ class Car(object):
         if self.sold_on is None:
             return 0.0 # Not yet sold
         return 8000 - (.10 * self.miles)
+
+class Truck(object):
+    """A truck for sale by Serge U. Dealership.
+
+    Attributes:
+    wheels: An integer representing the number of wheels the car has.
+    miles: The integral number of miles driven on the truck.
+    make: The make of the truck as a string.
+    model: The model of the truck as a string.
+    year: The integral year the truck was built.
+    sold_on: The date the vehicle was sold.
+    """
+    def __init__(self, wheels, miles, make, model, year, sold_on):
+        """
+        :param wheels: An integer representing the number of wheels the car has.
+        :param miles: The integral number of miles driven on the truck.
+        :param make: The make of the truck as a string.
+        :param model: The model of the truck as a string.
+        :param year: The integral year the truck was built.
+        :param sold_on: The date the vehicle was sold.
+        :return: Return a new Truck object.
+        """
+        self.wheels = wheels
+        self.miles = miles
+        self.make = make
+        self.model = model
+        self.year = year
+        self.sold_on = sold_on
+
+    def sale_price(self):
+        """
+        :return: Return the sale price for this truck as a float amount.
+        """
+        if self.sold_on is not None:
+            return 0.0 # Already sold
+        return 5000.0 * self.wheels
+
+    def purchase_price(self):
+        """
+        :return: Return the price for which we would pay to purchase
+        """
+        if self.sold_on is None:
+            return 0.0 # Not yet sold
+        return 10000 - (.10 * self.miles)
+
 carA = Car(4,40000, "nissan", "leaf", 2016, None)
 print carA.year
 print carA.make
 print carA
+
+carB = Truck(4, 70000, "Ford", "Escort", 2001, None)
+
+print carB.model
+print carB.miles
