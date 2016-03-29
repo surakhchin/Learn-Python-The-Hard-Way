@@ -13,7 +13,7 @@ hashmap.set(states, 'Michigan', 'MI')
 cities = hashmap.new()
 hashmap.set(cities, 'CA', "San Francisco")
 hashmap.set(cities, 'MI', 'Detroit')
-hashmap.set(cities, 'FL', 'Jackonville')
+hashmap.set(cities, 'FL', 'Jacksonville')
 
 #add some more cities
 hashmap.set(cities, 'NY', 'New York')
