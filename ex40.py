@@ -3,15 +3,12 @@ class Song(object):
     def __init__(self, lyrics):
         self.lyrics = lyrics
 
-    def sing_me_a_song(self, lyrics):
+    def sing_me_a_song(self,):
         for line in self.lyrics:
             print line
 
 print ("-" *20)
 
-
-
-under_the_bridge = Song(bridge)
 
 bridge = (["Sometimes I feel like",
           "I dont have a partner",
@@ -20,7 +17,10 @@ bridge = (["Sometimes I feel like",
           "Is the city I live in",
           "The city of Angles!"])
 
-under_the_bridge.sing_me_a_song(bridge)
+under_the_bridge = Song(bridge)
+
+
+under_the_bridge.sing_me_a_song()
 
 
 
