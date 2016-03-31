@@ -17,12 +17,19 @@ bridge = (["Sometimes I feel like",
           "Is the city I live in",
           "The city of Angles!"])
 
-under_the_bridge = Song(bridge)
+eminem = (["I'm slim shady",
+           "Yes I'm the real shady",
+           "Will the real slim shday",
+           "Please stand up?"])
+
+any_song = Song(bridge)
 
 
-under_the_bridge.sing_me_a_song()
+any_song.sing_me_a_song()
 
+any_song1 = Song(eminem)
 
+any_song1.sing_me_a_song()
 
 
 
