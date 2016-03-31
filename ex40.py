@@ -11,7 +11,7 @@ print ("-" *20)
 
 
 bridge = (["Sometimes I feel like",
-          "I dont have a partner",
+          "I don't have a partner",
           "Sometimes I feel like",
           "My only friend",
           "Is the city I live in",
